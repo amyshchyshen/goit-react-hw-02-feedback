@@ -1,0 +1,31 @@
+@value variables: '../../variables.module.css';
+@value primary-box-shadow from variables;
+
+.optionsList {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.optionsListItem {
+  margin-right: 15px;
+}
+
+.optionsListItem:last-child {
+  margin-right: 0;
+}
+
+.optionBtn {
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #fff;
+  background-color: rgb(14, 155, 173);
+  border: none;
+  border-radius: 5px;
+  box-shadow: primary-box-shadow;
+  cursor: pointer;
+}

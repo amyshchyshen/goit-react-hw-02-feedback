@@ -1,0 +1,7 @@
+@value variables: '../../variables.module.css';
+@value color-dark-grey from variables;
+
+.message {
+  font-size: 28px;
+  color: color-dark-grey;
+}

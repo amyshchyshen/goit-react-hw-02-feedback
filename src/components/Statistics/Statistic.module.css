@@ -1,0 +1,13 @@
+@value variables: '../../variables.module.css';
+@value color-dark-grey, color-light-grey from variables;
+
+.statName {
+  font-size: 24px;
+  color: color-light-grey;
+}
+
+.statValue {
+  font-size: 30px;
+  font-weight: bold;
+  color: color-dark-grey;
+}
